@@ -221,6 +221,7 @@ Your Services section
   
 }
 .top-blogs {
+    margin-bottom: 20px;
   justify-content: center;
   text-align: center;
   
@@ -233,7 +234,7 @@ Your Services section
   grid-column-gap: 10px;
   justify-content: center;
   align-items: center;
-  margin-bottom: 20px 10px;
+  
  
 }
 .card {
