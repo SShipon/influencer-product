@@ -335,5 +335,7 @@ footer p {
   footer {
     padding-top: 50px;
   }
-
+  .social-icon .ali{
+      font-size: 10px;
+  }
 }
