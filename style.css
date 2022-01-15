@@ -82,7 +82,7 @@ nav .navbar-list > a {
 }
 .banner-title {
   width: 487px;
-  margin-left: 20px;
+  margin-left: 10px;
 }
 
 .banner-title h1 {
@@ -118,9 +118,9 @@ nav .navbar-list > a {
   height: 414;
 }
 .banner-image img:hover{
-     transform: rotate(360deg);
-    transition: transform 2s ease-in-out;
-    width: 500px;
+      transform: rotate(360deg);
+      transition: transform 2s ease-in-out;
+      width: 480px;
 }
 
 /*--------------- 
