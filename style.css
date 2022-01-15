@@ -329,7 +329,7 @@ footer p {
     width: 349px;
   }
 
-  .products .card {
+  .products .blog-container {
     grid-template-columns: repeat(2, 1fr);
   }
   footer {
@@ -360,7 +360,7 @@ footer p {
     width: 329px;
   }
 
-  .products .card {
+  .products .blog-container {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
