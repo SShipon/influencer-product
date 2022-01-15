@@ -121,7 +121,7 @@ nav .navbar-list > a {
 .banner-image img:hover {
   transform: rotate(90deg);
   transition: transform 3s ease-in-out;
-  width: 480px;
+ 
 }
 
 /*--------------- 
