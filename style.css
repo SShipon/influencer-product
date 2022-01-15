@@ -131,6 +131,9 @@ nav .navbar-list > a {
   font-size: 36px;
   margin-top: 20px;
 }
+.new-col{
+   color: rgb(16, 190, 202);
+}
 .main {
   width: 1047px;
   justify-content: center;
@@ -201,13 +204,47 @@ nav .navbar-list > a {
 }
 /*
  -------------------------
-  about-us
+ blogs section
  -------------------------
- */
-#about-me {
+*/
+.blog {
   text-align: center;
+  margin-top: 10px;
+  font-weight: bold;
 }
-
+hr {
+  border: 2px solid rgb(4, 21, 22);
+  margin-left: 35%;
+  margin-right: 35%;
+  border-radius: 10px;
+}
+.top-blogs {
+  background-color: #d9dff1;
+  
+   
+}
+.blog-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.card {
+ 
+  text-align: center;
+  padding: 15px;
+  box-shadow: 0px 0px 40px rgba(27, 25, 25, 0.15);
+  border-radius: 10px;
+  grid-column-gap: 10px;
+ 
+}
+.blog-container img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
 /*-------------
     Footer
  -------------- */
