@@ -204,7 +204,7 @@ nav .navbar-list > a {
 }
 /*
  -------------------------
- blogs section
+Your Services section
  -------------------------
 */
 .blog {
@@ -212,13 +212,10 @@ nav .navbar-list > a {
   margin-top: 10px;
   font-weight: bold;
 }
-hr {
-  border: 2px solid rgb(4, 21, 22);
-  margin-left: 35%;
-  margin-right: 35%;
-  border-radius: 10px;
-}
+
+
 .top-blogs {
+    padding: 10px;
   background-color: #d9dff1;
   
    
@@ -332,7 +329,7 @@ footer p {
     width: 349px;
   }
 
-  .products {
+  .products .card {
     grid-template-columns: repeat(2, 1fr);
   }
   footer {
@@ -363,7 +360,7 @@ footer p {
     width: 329px;
   }
 
-  .products {
+  .products .card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
   }
