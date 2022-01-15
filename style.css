@@ -117,9 +117,10 @@ nav .navbar-list > a {
   width: 440px;
   height: 414;
 }
+
 .banner-image img:hover {
-  transform: rotate(360deg);
-  transition: transform 2s ease-in-out;
+  transform: rotate(90deg);
+  transition: transform 3s ease-in-out;
   width: 480px;
 }
 
@@ -200,6 +201,7 @@ nav .navbar-list > a {
   width: 300px;
   height: 256px;
 }
+
 .product img:hover {
   transform: scale(1.1);
   transition: transform 3s;
