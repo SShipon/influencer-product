@@ -259,7 +259,7 @@ footer p {
   }
 
   .mobile-menu {
-    display: inline-block;
+    display: inline-block !important;
     height: 24px;
     width: 24px;
   }
