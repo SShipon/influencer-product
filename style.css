@@ -44,8 +44,8 @@ nav {
   align-items: center;
   height: 44px;
 }
-.mobile-menu {
-  display: none;
+.mobile-menu  {
+  display: none !important;
   color: #fff;
 }
 nav .navbar-list a {
@@ -134,7 +134,7 @@ nav .navbar-list > a {
 }
 .main{
     width: 1047px;
-    height: 1662px;
+    justify-content: center;
 }
 .products-section {
   display: flex;
