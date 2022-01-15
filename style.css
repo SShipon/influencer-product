@@ -327,11 +327,11 @@ footer p {
     flex-direction: column;
   }
   footer {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     justify-content: center;
   }
   footer .social-icon {
-    margin: 10px;
+    margin: 5px;
   }
 }
