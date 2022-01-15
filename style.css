@@ -248,10 +248,11 @@ Your Services section
   border-radius: 50%;
 }
 .blog-container img:hover {
-  transform: scale(1.2);
-  transition: transform 3s;
+  transform: rotate(180deg);
+  transition: transform 3s ease-in-out;
   cursor: pointer;
 }
+
 
 /*-------------
     Footer
