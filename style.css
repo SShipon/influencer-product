@@ -44,7 +44,7 @@ nav {
   align-items: center;
   height: 44px;
 }
-.mobile-menu  {
+.mobile-menu {
   display: none !important;
   color: #fff;
 }
@@ -117,10 +117,10 @@ nav .navbar-list > a {
   width: 440px;
   height: 414;
 }
-.banner-image img:hover{
-      transform: rotate(360deg);
-      transition: transform 2s ease-in-out;
-      width: 480px;
+.banner-image img:hover {
+  transform: rotate(360deg);
+  transition: transform 2s ease-in-out;
+  width: 480px;
 }
 
 /*--------------- 
@@ -130,12 +130,11 @@ nav .navbar-list > a {
   text-align: center;
   font-size: 36px;
   margin-top: 20px;
-
 }
-.main{
-    width: 1047px;
-    justify-content: center;
-    text-align: center;
+.main {
+  width: 1047px;
+  justify-content: center;
+  text-align: center;
 }
 .products-section {
   display: flex;
@@ -145,17 +144,22 @@ nav .navbar-list > a {
 }
 
 .products {
-
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-column-gap: 30px;
   grid-row-gap: 30px;
   margin-left: 10px;
+  line-height: 20px;
 }
-
-.product{
+.product {
   padding: 15px;
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 0px 40px rgba(27, 25, 25, 0.15);
+  border-radius: 5px;
+}
+.product:hover {
+  padding: 15px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1), 0 0 0 2px rgb(255, 255, 255),
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
   border-radius: 5px;
 }
 
@@ -167,6 +171,9 @@ nav .navbar-list > a {
   margin-top: 16px;
   color: #18191f;
 }
+.product h5 {
+  font-size: 18px;
+}
 
 .product p {
   font-style: normal;
@@ -174,34 +181,32 @@ nav .navbar-list > a {
   font-size: 16px;
   line-height: 26px;
   margin-top: 10px;
-  color: #6c6c6c;
+  color: #0e0a0a;
 }
-.fa-star{
-   color: orange;
+.fa-star {
+  color: orange;
 }
-.fa-star-half-alt{
-    color: orange;
+.fa-star-half-alt {
+  color: orange;
 }
 
 .product img {
   width: 300px;
   height: 256px;
 }
-.text-right{
-    text-align: right;
-    color: orangered;
-    margin-right: 20px;
+.text-right {
+  text-align: right;
+  color: orangered;
+  margin-right: 20px;
 }
- /*
+/*
  -------------------------
   about-us
  -------------------------
  */
- #about-me{
-     text-align: center;
- }
-
-
+#about-me {
+  text-align: center;
+}
 
 /*-------------
     Footer
@@ -297,12 +302,10 @@ footer p {
     padding-top: 100px;
     padding-bottom: 60px;
   }
-  footer .social-icon{
+  footer .social-icon {
     margin: 10px;
+  }
 }
-
-}
-
 
 /*======= Mobile Device ======= */
 
@@ -335,7 +338,7 @@ footer p {
   footer {
     padding-top: 50px;
   }
-  .social-icon .ali{
-      font-size: 10px;
+  .social-icon .icon-text {
+    font-size: 10px;
   }
 }
